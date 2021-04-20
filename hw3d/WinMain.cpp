@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /******************************************************************************************
 *	Chili Direct3D Engine																  *
 *	Copyright 2018 PlanetChili <http://www.planetchili.net>								  *
@@ -19,6 +20,21 @@
 ******************************************************************************************/
 #include "App.h"
 
+=======
+#include <Windows.h>
+
+LRESULT CALLBACK WndProc( HWND hWnd,UINT msg,WPARAM wParam,LPARAM lParam )
+{
+	switch( msg )
+	{
+	case WM_CLOSE:
+		PostQuitMessage( 69 );
+		break;
+	}
+
+	return DefWindowProc( hWnd,msg,wParam,lParam );
+}
+>>>>>>> parent of 335287f (sexy WM_ logging)
 
 int CALLBACK WinMain(
 	HINSTANCE hInstance,
