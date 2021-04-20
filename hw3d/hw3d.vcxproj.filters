@@ -76,6 +76,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="WindowsMessageMap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -791,6 +792,8 @@
     <FxCompile Include="Shadow_PS.hlsl">
       <Filter>Shader</Filter>
     </FxCompile>
+=======
+>>>>>>> parent of 335287f (sexy WM_ logging)
 =======
 >>>>>>> parent of 335287f (sexy WM_ logging)
   </ItemGroup>

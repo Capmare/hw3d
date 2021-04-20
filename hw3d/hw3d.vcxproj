@@ -96,6 +96,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="App.cpp" />
     <ClCompile Include="BindingPass.cpp" />
     <ClCompile Include="Blender.cpp" />
@@ -271,6 +272,8 @@
     <ClCompile Include="WindowsMessageMap.cpp" />
 =======
 >>>>>>> parent of 335287f (sexy WM_ logging)
+=======
+>>>>>>> parent of 335287f (sexy WM_ logging)
     <ClCompile Include="WinMain.cpp" />
     <FxCompile Include="PhongDifSpc_PS.hlsl">
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
@@ -299,6 +302,7 @@
     </None>
     <None Include="_PShadow_Static.hlsli" />
   </ItemGroup>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <ItemGroup>
     <ClInclude Include="App.h" />
@@ -546,6 +550,8 @@
       <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
     </FxCompile>
   </ItemGroup>
+=======
+>>>>>>> parent of 335287f (sexy WM_ logging)
 =======
 >>>>>>> parent of 335287f (sexy WM_ logging)
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
